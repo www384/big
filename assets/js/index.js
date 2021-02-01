@@ -35,7 +35,7 @@ function getUserInfo(){
         // 成功后的回调函数
         success:function(res) {
             
-            console.log(res);
+           // console.log(res);
              // 调用 renderAvatar 渲染用户的头像
             renderAvatar(res.data)
         }
